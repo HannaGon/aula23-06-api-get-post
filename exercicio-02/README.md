@@ -11,3 +11,28 @@ utilizando como input o params (busca/:busca)
 
 Nota: Não se esqueça de baixar o express (npm i express)
 e adicionar o node_modules no .gitignore!
+
+### Acessando as rotas
+
+- Listar todos
+
+```sh
+GET http://localhost:8081/api/produto
+```
+
+- Consultar por nome
+```sh
+GET http://localhost:8081/api/produto/nome/{nome}
+```
+
+- Salvar:
+```sh
+POST http://localhost:8081/api/produto
+```
+```json
+{
+   "produto": "Product",
+   "tipo": "Type",
+   "preco": 0.00
+}
+```
