@@ -1,0 +1,27 @@
+[
+    {
+        "produto":"Monster Energy (classico)",
+        "tipo":"Energetico",
+        "preço":8.99
+    },
+    {
+        "produto":"Monster Energy (mango loco)",
+        "tipo":"Energetico",
+        "preço": 8.99
+    },
+    {
+        "produto":"Redbull (acai)",
+        "tipo":"Energetico",
+        "preço":7.99
+    },
+    {
+        "produto":"H20H (classico)",
+        "tipo":"Refrigerante",
+        "preço":4.50
+    },
+    {
+        "produto":"H20H (limoneto)",
+        "tipo":"Refrigerante",
+        "preço":4.50
+    }
+]
