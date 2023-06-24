@@ -6,7 +6,7 @@ const obterTodos = (request, response) => {
 
 const obterPorNome = (request, response) => {
     const nome = request.params.nome
-    const produto = produtos.find(produto => produto.produto == nome)
+    const produto = produtos.find(produto => produto.produto.toLowerCase() == nome.toLowerCase())
     if (produto) {
         response.status(200).send(produto)
     } else {
