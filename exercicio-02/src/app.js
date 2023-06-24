@@ -1,9 +1,9 @@
 const express = require("express")
-const livrosRoutes = require("./routes/livrosRoutes")
+const mercadoRoutes = require("./routes/mercadoRoutes")
 
 const app = express()
 app.use(express.json())
 
-app.use("/livros", livrosRoutes)
+app.use("/mercado", mercadoRoutes)
 
 module.exports=app;
