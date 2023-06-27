@@ -1,25 +1,30 @@
 [
     {
+        "id":"b859c48d-43af-45a9-a7a9-f8c95bdba0ac",
         "produto":"Monster Energy (classico)",
         "tipo":"Energetico",
         "preco":8.99
     },
     {
+        "id":"1f9ce515-d3ec-4f82-bd40-885744dac06f",
         "produto":"Monster Energy (mango loco)",
         "tipo":"Energetico",
         "preco": 8.99
     },
     {
+        "id":"397bb3eb-2247-4d46-9264-1fe49ca4a681",
         "produto":"Redbull (acai)",
         "tipo":"Energetico",
         "preco":7.99
     },
     {
+        "id":"64caa4b4-e10f-4cea-86f8-237985cdc8af",
         "produto":"H20H (classico)",
         "tipo":"Refrigerante",
         "preco":4.50
     },
     {
+        "id":"5cd33993-5654-4df6-b5c9-a358b6df0e8a",
         "produto":"H20H (limoneto)",
         "tipo":"Refrigerante",
         "preco":4.50
