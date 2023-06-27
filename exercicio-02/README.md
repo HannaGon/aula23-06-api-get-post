@@ -20,6 +20,11 @@ e adicionar o node_modules no .gitignore!
 GET http://localhost:8081/api/produto
 ```
 
+- Consultar por ID
+```sh
+GET http://localhost:8081/api/produto/{id}
+```
+
 - Consultar por nome
 ```sh
 GET http://localhost:8081/api/produto/nome/{nome}
@@ -34,5 +39,32 @@ POST http://localhost:8081/api/produto
    "produto": "Product",
    "tipo": "Type",
    "preco": 0.00
+}
+```
+
+- Deletar:
+```sh
+DELETE http://localhost:8081/api/produto/{id}
+```
+
+- Atualizar - PUT:
+```sh
+PUT http://localhost:8081/api/produto/{id}
+```
+```json
+{
+   "produto": "Product",
+   "tipo": "Type",
+   "preco": 0.00
+}
+```
+
+- Atualizar - PATCH:
+```sh
+PATCH http://localhost:8081/api/produto/{id}
+```
+```json
+{
+   "produto": "Product"
 }
 ```
