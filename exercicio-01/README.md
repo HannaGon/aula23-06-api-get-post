@@ -18,3 +18,27 @@ com as informações abaixo, o mesmo deverá ter
 
 Nota: Não se esqueça de baixar o express (npm i express)
 e adicionar o node_modules no .gitignore!
+
+### Acessando as rotas
+
+- Listar todos
+
+```sh
+GET http://localhost:8080/api/livro
+```
+
+- Consultar por ID
+```sh
+GET http://localhost:8080/api/livro/{id}
+```
+
+- Salvar:
+```sh
+POST http://localhost:8080/api/livro
+```
+```json
+{
+   "titulo": "Title",
+   "autor": "Author"
+}
+```
