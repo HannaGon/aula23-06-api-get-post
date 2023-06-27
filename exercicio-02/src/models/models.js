@@ -1,7 +1,7 @@
 const db = ()=>{
     return new Promise ((resolve,reject)=>{
     setTimeout(() => {
-        return resolve(require("./livros.json"))
+        return resolve(require("../../data/produtos.json"))
     }, 1500);
     })
 }
